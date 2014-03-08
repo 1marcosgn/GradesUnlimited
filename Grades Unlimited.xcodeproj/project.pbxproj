@@ -21,6 +21,9 @@
 		4ACB5C9418C80CFD000733C6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ACB5C7618C80CFA000733C6 /* UIKit.framework */; };
 		4ACB5C9C18C80CFD000733C6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4ACB5C9A18C80CFD000733C6 /* InfoPlist.strings */; };
 		4ACB5C9E18C80CFD000733C6 /* Grades_UnlimitedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACB5C9D18C80CFD000733C6 /* Grades_UnlimitedTests.m */; };
+		7956F16518C8D23F00494FC4 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956F16418C8D23F00494FC4 /* HomeViewController.m */; };
+		7956F16718CA79D800494FC4 /* CellCustomHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7956F16618CA79D800494FC4 /* CellCustomHome.xib */; };
+		7956F16A18CAD26600494FC4 /* CellCustomHome.m in Sources */ = {isa = PBXBuildFile; fileRef = 7956F16918CAD26600494FC4 /* CellCustomHome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		4ACB5C9918C80CFD000733C6 /* Grades UnlimitedTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Grades UnlimitedTests-Info.plist"; sourceTree = "<group>"; };
 		4ACB5C9B18C80CFD000733C6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4ACB5C9D18C80CFD000733C6 /* Grades_UnlimitedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Grades_UnlimitedTests.m; sourceTree = "<group>"; };
+		7956F16318C8D23F00494FC4 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		7956F16418C8D23F00494FC4 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		7956F16618CA79D800494FC4 /* CellCustomHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CellCustomHome.xib; sourceTree = "<group>"; };
+		7956F16818CAD26600494FC4 /* CellCustomHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CellCustomHome.h; sourceTree = "<group>"; };
+		7956F16918CAD26600494FC4 /* CellCustomHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CellCustomHome.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +123,11 @@
 				4ACB5C8118C80CFB000733C6 /* AppDelegate.h */,
 				4ACB5C8218C80CFB000733C6 /* AppDelegate.m */,
 				4ACB5C8418C80CFB000733C6 /* Main.storyboard */,
+				7956F16618CA79D800494FC4 /* CellCustomHome.xib */,
+				7956F16818CAD26600494FC4 /* CellCustomHome.h */,
+				7956F16918CAD26600494FC4 /* CellCustomHome.m */,
+				7956F16318C8D23F00494FC4 /* HomeViewController.h */,
+				7956F16418C8D23F00494FC4 /* HomeViewController.m */,
 				4ACB5C8718C80CFB000733C6 /* ViewController.h */,
 				4ACB5C8818C80CFB000733C6 /* ViewController.m */,
 				4ACB5C8A18C80CFB000733C6 /* Images.xcassets */,
@@ -231,6 +244,7 @@
 				4ACB5C8B18C80CFB000733C6 /* Images.xcassets in Resources */,
 				4ACB5C7D18C80CFB000733C6 /* InfoPlist.strings in Resources */,
 				4ACB5C8618C80CFB000733C6 /* Main.storyboard in Resources */,
+				7956F16718CA79D800494FC4 /* CellCustomHome.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +266,8 @@
 				4ACB5C8918C80CFB000733C6 /* ViewController.m in Sources */,
 				4ACB5C8318C80CFB000733C6 /* AppDelegate.m in Sources */,
 				4ACB5C7F18C80CFB000733C6 /* main.m in Sources */,
+				7956F16A18CAD26600494FC4 /* CellCustomHome.m in Sources */,
+				7956F16518C8D23F00494FC4 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +476,7 @@
 				4ACB5CA318C80CFD000733C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4ACB5CA418C80CFD000733C6 /* Build configuration list for PBXNativeTarget "Grades UnlimitedTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +485,7 @@
 				4ACB5CA618C80CFD000733C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
