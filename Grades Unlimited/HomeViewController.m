@@ -34,6 +34,12 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
 }
 
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.tableView reloadData];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
@@ -55,14 +61,47 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier = @"Cell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    static NSString *CellIdentifier = @"CellCustomHome";
     
-    cell.textLabel.text=@"TEST";
+    CellCustomHome * cell = (CellCustomHome*)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+    
+    if (cell == nil) {
+        NSArray *nib = [[NSBundle mainBundle] loadNibNamed:@"CellCustomHome" owner:nil options:nil];
+        cell = (CellCustomHome*)[nib objectAtIndex:0];
+    }
+    
+    switch (indexPath.row) {
+        case 0:
+            [cell.btnCellCustomHome setTitle:@"About Us" forState:UIControlStateNormal];
+            //[cell.btnCellCustomHome setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+            break;
+        case 1:
+            [cell.btnCellCustomHome setTitle:@"How it Works" forState:UIControlStateNormal];
+            //[cell.btnCellCustomHome setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+            break;
+        case 2:
+            [cell.btnCellCustomHome setTitle:@"Our Classes" forState:UIControlStateNormal];
+            //[cell.btnCellCustomHome setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+            break;
+        case 3:
+            [cell.btnCellCustomHome setTitle:@"Testimonials" forState:UIControlStateNormal];
+            //[cell.btnCellCustomHome setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+            break;
+        case 4:
+            [cell.btnCellCustomHome setTitle:@"Contact Us" forState:UIControlStateNormal];
+            //[cell.btnCellCustomHome setBackgroundImage:[UIImage imageNamed:@""] forState:UIControlStateNormal];
+            break;
+        default:
+            break;
+    }
     
     return cell;
 }
 
+-(CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 80;
+}
 /*
 // Override to support conditional editing of the table view.
 - (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath

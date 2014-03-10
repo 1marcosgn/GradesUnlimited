@@ -10,4 +10,6 @@
 
 @interface CellCustomHome : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIButton *btnCellCustomHome;
+
 @end

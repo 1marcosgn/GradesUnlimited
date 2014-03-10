@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CellCustomHome.h"
 
 @interface HomeViewController : UITableViewController
 
