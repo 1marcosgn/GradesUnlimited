@@ -12,6 +12,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    //TEST PRUEBA
     // Override point for customization after application launch.
     //[[UINavigationBar appearance] setBackgroundImage:@"" forBarMetrics:UIBarMetricsDefault];
     [[UINavigationBar appearance] setBarTintColor:[UIColor redColor]];

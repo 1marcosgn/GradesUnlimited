@@ -5,42 +5,43 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>393BCAC9-2693-4E53-A484-1A1BA82EEB99</string>
+	<string>5CF2EA03-B6A9-44C4-8BEA-C03119BA8083</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Grades Unlimited</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3F75D60B-4FB7-4B4E-AF0B-8A3A59942145</key>
-		<string>https://github.com/peperamirez89/GradesUnlimited</string>
+		<key>485B4FAD-1406-499E-8385-B0B0F811DCA0</key>
+		<string>https://github.com/1marcosgn/GradesUnlimited/trunk</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Grades Unlimited.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3F75D60B-4FB7-4B4E-AF0B-8A3A59942145</key>
+		<key>485B4FAD-1406-499E-8385-B0B0F811DCA0</key>
 		<string>../..</string>
 	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>485B4FAD-1406-499E-8385-B0B0F811DCA0</key>
+		<string>https://github.com/1marcosgn/GradesUnlimited</string>
+	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/peperamirez89/GradesUnlimited</string>
+	<string>https://github.com/1marcosgn/GradesUnlimited/trunk/Grades%20Unlimited.xcodeproj</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3F75D60B-4FB7-4B4E-AF0B-8A3A59942145</string>
+	<string>485B4FAD-1406-499E-8385-B0B0F811DCA0</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
+			<key>IDESourceControlRepositoryBranchesRelativeLocationKey</key>
+			<string>branches</string>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlRepositoryTrunkRelativeLocationKey</key>
+			<string>trunk</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3F75D60B-4FB7-4B4E-AF0B-8A3A59942145</string>
-			<key>IDESourceControlWCCName</key>
-			<string>GradesUnlimited</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3F75D60B-4FB7-4B4E-AF0B-8A3A59942145</string>
+			<string>485B4FAD-1406-499E-8385-B0B0F811DCA0</string>
 			<key>IDESourceControlWCCName</key>
 			<string>GradesUnlimited</string>
 		</dict>
